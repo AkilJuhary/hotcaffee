@@ -51,9 +51,15 @@ npm install
 3. Set up backend environment variables:
 Create a `.env` file in the backend directory with:
 ```
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/hotcaffee
+# Server Configuration
+PORT=<your-port-number>
 NODE_ENV=development
+
+# Database Configuration
+MONGODB_URI=<your-mongodb-connection-string>
+
+# Production Only
+FRONTEND_URL=<your-frontend-url-in-production>
 ```
 
 4. Install frontend dependencies:
@@ -65,7 +71,7 @@ npm install
 5. Set up frontend environment variables:
 Create a `.env.local` file in the frontend directory with:
 ```
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_API_URL=<your-backend-api-url>
 ```
 
 ## Running the Application
