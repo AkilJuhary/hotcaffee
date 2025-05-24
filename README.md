@@ -1,6 +1,6 @@
 # HotCaffee ☕
 
-A modern, mobile-friendly, and SEO-optimized web application for a coffee shop built with Next.js and Express.js
+A modern, mobile-friendly, and SEO-optimized web application for a coffee shop built with Next.js and Express.js.
 
 ## Features
 
